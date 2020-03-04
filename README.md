@@ -1,6 +1,6 @@
-# Back-end Travel Simple
+# Back-end Travel Tour
 
-Back-end of the application Travel Simple.
+Back-end of the application Travel Tour.
 
 ## Environment
 
@@ -10,7 +10,7 @@ Back-end of the application Travel Simple.
 
 ## How to run
 
-Access `backend-travel-simple` project directory from a terminal, run the command `python manage.py runserver 0.0.0.0:8000`. To verify it's working properly, open the URL `http://localhost:8000/api/host/<host_number>` or `http://localhost:8000/api/bedroom/<bedroom-number>` from a browser of your preference.
+Access `backend-travel-tour` project directory from a terminal, run the command `python manage.py migrate`, then the command `python manage.py runserver 0.0.0.0:8000`. To verify it's working properly, open the URL `http://localhost:8000/api/lodgingevents/<lodgingevent_number>` or `http://localhost:8000/api/travelevents/<travelevents-number>` from a browser of your preference.
 
 ## How to add data
 
