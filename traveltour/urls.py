@@ -17,9 +17,12 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url
 from lodgingevents import views as lodge_views
+from travelevents import views as travel_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^api/lodgingevents/$', lodge_views.event_list),
     url(r'^api/lodgingevents/(?P<event_pk>[0-9]+)$', lodge_views.event_detail),
+    url(r'^api/travelevents/$', travel_views.event_list),
+    url(r'^api/travelevents/(?P<event_pk>[0-9]+)$', travel_views.event_detail),
 ]

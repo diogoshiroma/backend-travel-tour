@@ -8,3 +8,4 @@ class LodgingEvent(models.Model):
     bedroom_name = models.CharField("Nome do quarto", max_length=50)
     start_date = models.DateField("Data de início")
     end_date = models.DateField("Data do fim")
+    

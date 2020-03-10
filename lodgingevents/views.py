@@ -45,3 +45,4 @@ def event_detail(request, event_pk):
     elif request.method == 'DELETE':
         event.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
+        
